@@ -23,7 +23,7 @@ iframe {
 @keyframes colorChange{
     0%, 100%
     {
-        filter: hue-rotate(270deg);
+        filter: hue-rotate(300deg);
     }
     50%
     {
@@ -103,6 +103,12 @@ i{
     0 0 300px rgba(255,6,6,0.6),
     0 0 400px rgba(253,6,6,0.8),
     0 0 500px rgba(255,6,6,1);
+}
+
+
+
+#myAudio {
+    display: none; /* Hide the audio element */
 }
 
 .flamez {
@@ -189,4 +195,201 @@ h2:hover span {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
-  }
+}
+
+.flamez-2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.78);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    width: 40%;
+    height: 6%;
+    margin: auto;
+    margin-bottom: 40%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.flamez-2:hover {
+    background-color: rgba(71, 67, 67, 0.78);
+    box-shadow: 4px 4px 8px rgb(177, 177, 177);
+}
+.flamez-2 h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+}
+.flamez-2 h2 em {
+    color: rgb(185, 38, 38);
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 430px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+@media (max-width: 414px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+@media (max-width: 412px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+@media (max-width: 390px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+@media (max-width: 375px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+@media (max-width: 360px) {
+    .cube {
+        height: 60px;
+        width: 398px;
+        left: -3px;
+    }
+    .top {
+        width: 239px;
+        height: 246px;
+        left: 0px;
+        transform: rotateX(90deg) translateZ(123px);
+    }
+    .top:before {
+        width: 239px;
+        height: 246px;
+    }
+
+    .cube .box span {
+        width: 60%;
+        height: 140%;
+        transform: rotateY(calc(90deg* var(--i))) translateZ(120px);
+    }
+    .flamez-2 {
+        width: 77%;
+        margin-bottom: 150%;
+    }
+}
+
+
+/* END OF MEDIA QUERIES */
