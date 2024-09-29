@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  z-index: 999;
 }
 @keyframes loader {
   0% {transform:rotate(-45deg)}
@@ -19,10 +20,10 @@ body {
   50%{transform:translate(50px, 0);border-color:#875678}
   100%{transform:translate(0);}}
 @keyframes span-3 {
-  0%{transform:translate(0);}
   50%{transform:translate(0, -50px);border-color:#FF9900}
   100%{transform:translate(0);}}
 @keyframes span-4 {
+  0%{transform:translate(0);}
   0%{transform:translate(0);}
   50%{transform:translate(0, 50px);border-color:#00E4F6}
   100%{transform:translate(0);}}
